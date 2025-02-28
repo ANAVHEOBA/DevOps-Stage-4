@@ -10,12 +10,11 @@
 
 [api]
   dashboard = true
-  insecure = false
+  insecure = true    # Changed to true for testing
 
 [providers.docker]
   watch = true
-  network = "app-network"
-  exposedByDefault = false
+  exposedByDefault = false    # Removed network constraint
 
 [certificatesResolvers.myresolver.acme]
   email = "wisdomvolt@gmail.com"
