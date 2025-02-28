@@ -1,4 +1,4 @@
 redis==2.10.6
-thriftpy2
+thriftpy2==0.4.16    # Specify version
 py_zipkin==0.11.0
-requests
+requests>=2.31.0     # Specify minimum version
